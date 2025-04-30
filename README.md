@@ -1,12 +1,36 @@
-# React + Vite
+# 🚀 React + Vite Starter Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast and modern React starter template powered by [Vite](https://vitejs.dev/). Set up with minimal dependencies and ready for development!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Features
 
-## Expanding the ESLint configuration
+- ⚡ Vite for blazing-fast builds and dev server
+- ⚛️ React 18 with Hooks
+- 🎨 Tailwind CSS (optional)
+- 📁 Clean folder structure
+- ✅ ESLint & Prettier (optional)
+- 🔧 GitHub-ready
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/souravjng/Whatbytes.git
+cd Whatbytes
+
+2. Install Dependencies
+Make sure you have Node.js (>=16) and npm installed.
+
+npm install
+# or
+yarn install
+3. Start the Development Server
+npm run dev
+# or
+yarn dev
+Now open http://localhost:5173 in your browser.

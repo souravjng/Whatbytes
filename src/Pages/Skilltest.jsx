@@ -25,10 +25,11 @@ const Skilltest = () => {
   };
 
   return (
-    <div className='h-full overflow-auto'>
+    <div className="h-full overflow-auto px-4">
       <h1 className="text-lg font-normal text-gray-500 mb-6">Skill Test</h1>
-      <div className="flex flex-row flex-1 gap-4 h-full">
-        <div className="basis-[65%]">
+      
+      <div className="flex flex-wrap justify-start w-full max-w-[1220px] gap-4 ml-0">
+        <div className="w-[600px] md:basis-[775px] ">
           <StatsCard onUpdateClick={handleUpdateClick} />
           <QuickStatistics
             rank={stats.rank}
@@ -37,17 +38,15 @@ const Skilltest = () => {
           />
           <ComparisonGraph percentile={stats.percentile} />
         </div>
-
-        <div className="basis-[35%]">
+        <div className="w-[400px] md:basis-[390px] ">
           <AnalysisCard />
           <QuestionAnalysis score={stats.score} />
         </div>
       </div>
 
-
       {showForm && (
         <Form
-        initialValues={stats}
+          initialValues={stats}
           onCancel={() => setShowForm(false)}
           onSave={handleSave}
         />

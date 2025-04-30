@@ -21,10 +21,10 @@ const Header = () => {
 
 
       <div className="flex flex-1 overflow-hidden">
-        <div className="w-1/6 border-r border-gray-300 ">
+        <div className="w-1/6  ">
           <Sidebar />
         </div>
-        <div className="w-5/6 pl-14 pt-9 pb-2 pr-3 ">
+        <div className="w-5/6 pl-5 pt-9 pb-2 pr-3 ">
           <Outlet />
         </div>
       </div>
